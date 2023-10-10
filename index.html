@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aashritha - Full Stack Web Developer</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Italic, sans-serif;
+            font-size: 17px;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .container img {
+            vertical-align: middle;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container .content {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+        }
+
+.container .content h1:hover::after {
+    display: block;
+}
+
+
+        /* Your other styles... */
+
+        nav {
+            background-color: #333;
+            display: flex;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+
+        .row::after,
+        .row2::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column,
+        .column2 {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+
+        .text {
+            font-size: 20px;
+            padding-right: 20px;
+            padding-bottom: 100px;
+            color: green;
+        }
+
+        .column2 {
+            width: 33.33%;
+            border: 2px solid #000;
+        }
+
+        .row img,
+        .row2 img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .circular-image {
+    border-radius: 50%;
+      }
+
+      .column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    margin-top: 10px;
+}
+
+.text-container h3 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+
+<!-- Horizontal Navigation Menu -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <img src="deakin.jpg" alt="Deakin" style="width:100vw;">
+    <div class="content">
+        <h1>Hi, I am Aashritha</h1>
+    </div>
+</div>
+
+<div class="container">
+    <img src="me.jpeg" alt="My photo" style="width:10%"; class= "circular-image">
+    <h3 style="color:green;">I am a Full Stack Web Developer based in Melbourne, Australia</h3>
+    <p style="color: green;">----------------------------</p>
+    <h3 style="color:green;">Here's what I have Done</h3>
+
+    <div class="row">
+        <div class="column">
+            <div class="image-container">
+                <img src="db.jpg" alt="Database Image">
+            </div>
+            <div class="text-container">
+                <h3>Database Project</h3>
+                <p>
+                    The goal of the database project is to provide students with a real-world experience in requirements definition, conceptual modeling, logical design, physical design, and operation of a relational database.
+                </p>
+            </div>
+        </div>
+    
+        <div class="column">
+            <div class="image-container">
+                <img src="ml.jpg" alt="Machine learning">
+            </div>
+            <div class="text-container">
+                <h3>Machine Learning</h3>
+                <p>
+                    Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+    <p style="color: green;">----------------------------</p>
+    <h3 style="color: green;">My Photos</h3>
+
+    <div class="row2">
+        <div class="column2">
+            <img src="d1.jpg" alt="Deakin image1" style="width:100%;">
+        </div>
+        <div class="column2">
+            <img src="d2.jpg" alt="Deakin campus" style="width:100%;">
+        </div>
+        <div class="column2">
+            <img src="d3.jpg" alt="Deakin campus2" style="width:100%;">
+        </div>
+          <div class="column2">
+            <img src="d12.jpg" alt="Deakin image3" style="width:100%">
+          </div>
+          <div class="column2">
+            <img src="d2.jpg" alt="Deakin image" style="width:100%">
+          </div>
+          <div class="column2">
+            <img src="d3.jpg" alt="Deakin image" style="width:100%">
+          </div>
+          <div class="column2">
+            <img src="d11.jpg" alt="Deakin image" style="width:100%">
+          </div>  
+          <div class="column2">
+            <img src="d13.jpg" alt="Deakin image" style="width:100%">
+          </div> 
+          <div class="column2">
+            <img src="d1.jpg" alt="Deakin image" style="width:100%">
+</div>
+
+</body>
+</html>
+```
+
